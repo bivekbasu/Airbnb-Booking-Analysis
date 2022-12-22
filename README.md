@@ -40,18 +40,28 @@ This dataset has around 49,000 observations in it with 16 columns and it is a mi
   |neighbourhood | 	Neighbourhood area name |
   |latitude     | 	Latitude of the room|
   |longitude    | 	Longitude of the room|
+|room_type|	Type of room (Consist of 3 categories)|
+|price	|Price In Dollars|
+|minimum_nights|	Number of minimum nights allowed|
+|number_of_reviews	|Number of reviews about a particular room|
+|last_review	|Date on which the last review was given|
+|reviews_per_month|	Its a ratio(no. of reviews/30)|
+|callculated_host_listings_count|	Amount of listing per host|
+|availability_365|	Number of days in a year when bookings are available|
 
+# Overall Observation/Conclusion:
 
+* The majority of guests like individual rooms or complete homes over communal accommodations.
 
+* Brooklyn and Manhattan are New York's two prestigious, wealthy, and upscale neighbourhoods.
 
+* Some properties have minimum nightly stays that are greater than 365 days, which may appeal to students, low-wage workers, and immigrants.
 
+* Even if a home's location greatly influences its price, just because a location is popular doesn't guarantee that the property will be occupied the majority of the time.
 
-room_type	Type of room (Consist of 3 categories)
-price	Price In Dollars
-minimum_nights	Number of minimum nights allowed
-number_of_reviews	Number of reviews about a particular room
-last_review	Date on which the last review was given
-reviews_per_month	Its a ratio(no. of reviews/30)
-callculated_host_listings_count	Amount of listing per host
-availability_365	Number of days in a year when bookings are available
+* Because the characteristics provided in this dataset are of such poor quality for determining the value of properties, performing a regression on it may have a significant error rate. By examining the correlation heatmap, we may observe this. We would require more features such as bedrooms, bathrooms, property age (we believed it would be a very essential one), the tax rate that applies to land, additional amenities in the room, and the distance to the closest hospital, store, or school. These characteristics and pricing may be closely related.
+
+* With the help of time series analysis, it is feasible to create predictions about the occupancy rate at specific times of the month or season.
+
+* It would be helpful if we got the average guest reviews of a property; this would help us understand the property better and may also affect the price a little bit.
 
