@@ -2,6 +2,9 @@
 
 It's an EDA(Exploratory Data Analysis) on Airbnb dataset(NYC 2019)
 
+
+![image](https://user-images.githubusercontent.com/120264629/209119207-6e182fed-1af2-4711-a100-f4b7fb04fe74.png)
+
 # <h2> What is Airbnb?
   
   Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities. Based in San Francisco, California, the platform is accessible via website and mobile app.
